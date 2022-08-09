@@ -6,3 +6,14 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import Dog from "./Dog.js";
+
+const dog2 = new Dog(
+    "Sage",
+    "white",
+    4,
+    2,
+    "Taylor",
+    false
+);
