@@ -37,4 +37,4 @@ class Backpack {
   }
 }
 
-export default Backpack;
+export { Backpack };
