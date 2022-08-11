@@ -17,3 +17,5 @@ const dog2 = new Dog(
     "Taylor",
     false
 );
+
+console.log(dog2.name)
