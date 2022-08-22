@@ -38,6 +38,19 @@ figure {
   content: "⚍⚌⚍";
 }
 
+.nav-list {
+  display: flex;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
 .maincontent {
   margin: 0 auto;
   padding: 0 1rem;
