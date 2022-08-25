@@ -63,10 +63,20 @@ const backpackList = backpackObjectArray.map((backpack) => {
       }</span></li>
       <li class="feature backpack__strap" data-side="left">Left strap length: <span>${
         backpack.strapLength.left
-      } inches</span></li>
+      } inches</span>
+        <form>
+          <input class="new-length" type="number" placeholder="New left length">
+          <button class="update-strap" type="button">Update</button>
+        </form>
+      </li>
       <li class="feature backpack__strap" data-side="right">Right strap length: <span>${
         backpack.strapLength.right
-      } inches</span></li>
+      } inches</span>
+      <form>
+          <input class="new-length" type="number" placeholder="New right length">
+          <button class="update-strap" type="button">Update</button>
+      </form>
+      </li>
       <li class="feature backpack__lid">Lid status: <span>${
         backpack.lidOpen ? "open" : "closed"
       }</span></li>
@@ -91,3 +101,10 @@ const main = document.querySelector(".maincontent");
 backpackList.forEach((backpack) => {
   main.append(backpack);
 });
+
+
+
+
+
+
+

@@ -5,3 +5,12 @@
  * - Add an event listener to each grid cell to change its background color when it is clicked.
  * - Add an event listener to a specific key on the keyboard to change the background color of the whole page - from dark to light and back again.
  */
+
+const myCell = document.querySelectorAll(".cell");
+var bodyBackground = document.querySelector("body");
+
+myCell.forEach( (item) => {
+    item.addEventListener("click", function() {
+        item.classList.toggle("blue")
+    }
+)});

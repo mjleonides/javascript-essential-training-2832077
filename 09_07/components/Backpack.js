@@ -19,7 +19,7 @@ class Backpack {
     this.pocketNum = pocketNum;
     this.strapLength = {
       left: strapLengthL,
-      right: strapLengthR,
+      right: strapLengthR
     };
     this.lidOpen = lidOpen;
     this.dateAcquired = dateAcquired;
